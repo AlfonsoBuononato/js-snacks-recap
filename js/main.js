@@ -381,7 +381,7 @@ const app = new Vue({
         ],
     },
     methods: {
-        boh(index){
+        stampaCognome(index){
             console.log(this.rubrica[index].cognome);
         }
     }
