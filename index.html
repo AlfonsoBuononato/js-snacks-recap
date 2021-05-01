@@ -17,7 +17,7 @@
         <ul  v-for="(nomi, index) in rubrica" :class="{red: nomi.attivo == false}">
             <li>{{nomi.nome}}</li>
             <li>{{nomi.cognome}}</li>
-            <li @click="boh(index)">{{nomi.numero}}</li>
+            <li @click="stampaCognome(index)">{{nomi.numero}}</li>
         </ul>
     </div>
     
