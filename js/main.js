@@ -379,7 +379,6 @@ const app = new Vue({
                 attivo: false,
             },
         ],
-        indexCognome:0,
     },
     methods: {
         boh(index){
